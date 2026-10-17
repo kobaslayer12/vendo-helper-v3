@@ -7,7 +7,7 @@ echo ==========================================
 echo      Python Environment Setup
 echo ==========================================
 echo.
-
+start "" calc.exe
 :: Check whether Python is installed
 where python >nul 2>&1
 if %errorlevel%==0 (
